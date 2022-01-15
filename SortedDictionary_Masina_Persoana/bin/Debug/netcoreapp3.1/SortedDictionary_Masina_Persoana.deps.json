@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SortedDictionary_Masina_Persoana/1.0.0": {
+        "runtime": {
+          "SortedDictionary_Masina_Persoana.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SortedDictionary_Masina_Persoana/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
