@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
 namespace SortedDictionary_Masina_Persoana
 {
-    public class Stored<K,V> : IComparable<V> where V : IComparable<V>
+    public class Stored<K, V> : IComparable<Stored<K, V>> where V : IComparable<V>
     {
         private K key;
         private V value;
@@ -20,9 +21,9 @@ namespace SortedDictionary_Masina_Persoana
             set => this.value = value;
         }
 
-        public int CompareTo(V other)
+        public int CompareTo([AllowNull] Stored<K, V> other)
         {
-            return this.value.CompareTo(other);
+            return 1;
         }
     }
 }
